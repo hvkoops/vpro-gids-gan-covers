@@ -1,5 +1,5 @@
 # VPRO-GAN-covers
-Generating VPRO Gids covers using Generative Adversarial Networks
+Generating VPRO Gids covers using [Generative Adversarial Networks](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
 
 This repository contains my [StyleGAN](https://github.com/NVlabs/stylegan)
 application to VPRO Gids covers.
