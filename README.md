@@ -1,10 +1,11 @@
 # VPRO-GAN-covers
 Generating VPRO Gids covers using [Generative Adversarial Networks](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
 
-This repository contains my [StyleGAN](https://github.com/NVlabs/stylegan)
-application to VPRO Gids covers.
 ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/stitch_mx.png)
 Picture: Example covers produced by the GAN generator trained on VPRO Gids covers.
+
+This repository contains my [StyleGAN](https://github.com/NVlabs/stylegan)
+application to VPRO Gids covers.
 
 ## VPRO Gids
 ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/stitch.png)
@@ -15,6 +16,9 @@ with the guide being a focal point.
 
 ## Example of latent space walk:
 ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_4000_crop_10.gif) ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_8000_crop_10.gif)
+
+# Docker
+Coming soon.
 
 # Resources
 Related material is available via the following links:
