@@ -13,12 +13,8 @@ Picture: Example covers produced by the GAN generator trained on VPRO Gids cover
 broadcast station VPRO. VPRO has played a crucial part in Dutch design history
 with the guide being a focal point.
 
-## Example of latent space walk of 4000-step model:
-![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_4000_crop_10.gif)
-
-
-## Example of latent space walk of 8000-step model:
-![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_8000_crop_10.gif)
+## Example of latent space walk:
+![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_4000_crop_10.gif) ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_8000_crop_10.gif)
 
 # Resources
 Related material is available via the following links:
