@@ -15,6 +15,13 @@ application to VPRO Gids covers.
 broadcast station VPRO. VPRO has played a crucial part in Dutch design history
 with the guide being a focal point.
 
+## Techniques used:
+### [StyleGAN](https://github.com/NVlabs/stylegan)
+StyleGan was trained on a dataset of VPRO Covers, with an output size of 512x512.
+
+### [Feedback Network for Image Super-Resolution](https://github.com/Paper99/SRFBN_CVPR19)
+Feedback Network for Image Super-Resolution (SRFBN) and some post-processing was used to create super-resolution images of size 3366x3366 with 300dpi.
+
 ## Example of latent space walk:
 ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_4000_crop_10.gif) ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_8000_crop_10.gif)
 
