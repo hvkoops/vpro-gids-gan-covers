@@ -7,6 +7,8 @@ application to VPRO Gids covers.
 
 
 ## VPRO Gids
+![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/stitch.png)
+
 [VPRO Gids](https://www.vprogids.nl/) is the television guide of Dutch
 broadcast station VPRO. VPRO has played a crucial part in Dutch design history
 with the guide being a focal point.
