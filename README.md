@@ -3,7 +3,7 @@ Generating VPRO Gids covers using Generative Adversarial Networks
 
 This repository contains my [StyleGAN](https://github.com/NVlabs/stylegan)
 application to VPRO Gids covers.
-![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/covers.jpg)
+![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/stitch_mx.png)
 Picture: Example covers produced by our generator.
 
 ## VPRO Gids
