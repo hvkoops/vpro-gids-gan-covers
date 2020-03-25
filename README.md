@@ -1,4 +1,4 @@
-# VPRO-GAN-covers
+# VPRO-Gids-GAN-covers
 Generating VPRO Gids covers using [Generative Adversarial Networks](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
 
 ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/stitch_mx.png)
