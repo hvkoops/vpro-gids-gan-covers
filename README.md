@@ -2,7 +2,7 @@
 > Generating VPRO Gids covers using [Generative Adversarial Networks](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
 
 ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/stitch_mx.png)
-**Picture**: A selection of covers produced by the GAN generator trained on VPRO Gids covers.
+**Picture**: A selection of generated VPRO Gids covers.
 
 This repository contains information about my [StyleGAN](https://github.com/NVlabs/stylegan)
 application to VPRO Gids covers. I used [StyleGAN](https://github.com/NVlabs/stylegan), [SRFBN](https://github.com/Paper99/SRFBN_CVPR19) and [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) to generate (moving) cover art for the [13th VPRO Gids edition of 2020](https://www.vprogids.nl/2020/14/editie.html).
@@ -32,7 +32,6 @@ To better visualize the generative capabilities of the StyleGAN model, a latent 
 
 #### Animated GIF Examples of latent space walk:
 <img src="https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_4000_crop_10.gif" width="275"> <img src="https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_8000_crop_10.gif" width="275"> <img src="https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_90_crop.gif" width="275">
-
 **Pictures**: Animated GIF examples of latent space walks of the StyleGAN model using SRFBN and Super-SloMo. Note: these are reduced in resolution and frames per second.
 
 #### High resolution video examples of latent space walk:
