@@ -12,12 +12,18 @@ application to VPRO Gids covers. I used [StyleGAN](https://github.com/NVlabs/sty
 **Picture**: Example VPRO Gids covers from the training dataset.
 
 [VPRO Gids](https://www.vprogids.nl/) is the television guide of Dutch
-broadcast station VPRO. VPRO has played a crucial part in Dutch design history
-with the guide being a focal point.
+broadcast station [VPRO](https://www.vpro.nl/). [VPRO](https://en.wikipedia.org/wiki/VPRO) has played a crucial part in Dutch design history with the guide being a focal point.
 
 ## Techniques used:
+We use [StyleGAN](https://github.com/NVlabs/stylegan) for image genration, [SRFBN](https://github.com/Paper99/SRFBN_CVPR19) t create super-resolution covers and [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) to create slow motion latent space walk videos.
+
 ### [StyleGAN](https://github.com/NVlabs/stylegan)
-StyleGan was trained on a dataset of VPRO Covers, with an output size of 512x512.
+StyleGAN is a generative model which is capable of generating [realistic images of people](https://www.thispersondoesnotexist.com/), [characters](https://towardsdatascience.com/creating-new-scripts-with-stylegan-c16473a50fd0), and [more](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900). More information can be found here: [1](https://towardsdatascience.com/explained-a-style-based-generator-architecture-for-gans-generating-and-tuning-realistic-6cb2be0f431)
+
+### VPRO Covers
+In this application, StyleGan was trained on a dataset of VPRO Covers, with an output size of 512x512. 
+
+[PyTorch](https://github.com/rosinality/style-based-gan-pytorch) implementation of StyleGAN.
 
 ### [Feedback Network for Image Super-Resolution](https://github.com/Paper99/SRFBN_CVPR19)
 Feedback Network for Image Super-Resolution (SRFBN) and some post-processing was used to create super-resolution images of size 3366x3366 with 300dpi. SRFBN is an [image super-resolution](https://en.wikipedia.org/wiki/Super-resolution_imaging) feedback network (SRFBN) to refine low-level representations with high-level information. 
