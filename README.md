@@ -15,7 +15,7 @@ application to VPRO Gids covers. I used [StyleGAN](https://github.com/NVlabs/sty
 broadcast station [VPRO](https://www.vpro.nl/). [VPRO](https://en.wikipedia.org/wiki/VPRO) has played a crucial part in Dutch design history with the guide being a focal point.
 
 ## Techniques used:
-We use [StyleGAN](https://github.com/NVlabs/stylegan) for image genration, [SRFBN](https://github.com/Paper99/SRFBN_CVPR19) t create super-resolution covers and [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) to create slow motion latent space walk videos.
+We use [StyleGAN](https://github.com/NVlabs/stylegan) for image genration, [SRFBN](https://github.com/Paper99/SRFBN_CVPR19) to create super-resolution covers and [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) to create slow motion latent space walk videos.
 
 ### _[StyleGAN](https://github.com/NVlabs/stylegan)_
 StyleGAN is a generative model which is capable of generating [realistic images of people](https://www.thispersondoesnotexist.com/), [characters](https://towardsdatascience.com/creating-new-scripts-with-stylegan-c16473a50fd0), and [more](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900). More information can be found here: [1](https://towardsdatascience.com/explained-a-style-based-generator-architecture-for-gans-generating-and-tuning-realistic-6cb2be0f431)
