@@ -5,7 +5,7 @@
 **Picture**: A selection of covers produced by the GAN generator trained on VPRO Gids covers.
 
 This repository contains my [StyleGAN](https://github.com/NVlabs/stylegan)
-application to VPRO Gids covers. Using [StyleGAN](https://github.com/NVlabs/stylegan), [SRFBN](https://github.com/Paper99/SRFBN_CVPR19) and [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) to create the cover image for the [13th VPRO Gids edition of 2020](https://www.vprogids.nl/2020/14/editie.html).
+application to VPRO Gids covers. I used [StyleGAN](https://github.com/NVlabs/stylegan), [SRFBN](https://github.com/Paper99/SRFBN_CVPR19) and [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) to generate (moving) cover art for the [13th VPRO Gids edition of 2020](https://www.vprogids.nl/2020/14/editie.html).
 
 ## VPRO Gids
 ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/stitch.png)
