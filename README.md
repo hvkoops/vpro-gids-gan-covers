@@ -32,7 +32,7 @@ To better visualize the generative capabilities of the StyleGAN model, a [latent
 This [PyTorch](https://github.com/avinashpaliwal/Super-SloMo) implementation is useful for running your own experiments. 
 
 #### Animated GIF Examples of latent space visualization:
-<img src="https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_4000_crop_10.gif" width="275"> <img src="https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_8000_crop_10.gif" width="275"> <img src="https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_90_crop.gif" width="275">
+<img src="https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_4000_crop_10.gif" width="288"> <img src="https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_8000_crop_10.gif" width="288"> <img src="https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_90_crop.gif" width="288">
 
 **Pictures**: Animated GIF examples of latent space visualization of the StyleGAN model using SRFBN and Super-SloMo. Note: these are reduced in resolution and frames per second.
 
@@ -57,6 +57,3 @@ Related material is available via the following links:
 ## Super-SloMo
 + Code: [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) (Avinash Paliwal)
 + Paper: Jiang, Huaizu, Deqing Sun, Varun Jampani, Ming-Hsuan Yang, Erik Learned-Miller, and Jan Kautz. ["Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation"](https://arxiv.org/abs/1712.00080) In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 9000-9008. 2018.
-
-# Licence
-TODO
