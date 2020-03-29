@@ -31,7 +31,7 @@ Feedback Network for Image Super-Resolution (SRFBN) and some post-processing was
 To better visualize the generative capabilities of the StyleGAN model, we performed a latent space walk to create videos that look like generated covers morphing into each other. To create more detailed latent space walks of the StyleGAN output, we used [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) to create high resolution images from low-resolution StyleGAN output. Specifically, we used a [PyTorch](https://people.cs.umass.edu/~hzjiang/projects/superslomo/) implementation.
 
 #### Animated GIF Examples of latent space walk:
-![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_4000_crop_10.gif) ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_8000_crop_10.gif) ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_8000_crop_90.gif)
+![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_4000_crop_10.gif) ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_8000_crop_10.gif) ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_90_crop.gif)
 **Pictures**: Resolution-reduced animated GIF examples of latent space walks of the StyleGAN model.
 
 #### High resolution video exampels of latent space walk:
