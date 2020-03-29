@@ -17,30 +17,36 @@ broadcast station [VPRO](https://www.vpro.nl/). [VPRO](https://en.wikipedia.org/
 ## Techniques used:
 We use [StyleGAN](https://github.com/NVlabs/stylegan) for image genration, [SRFBN](https://github.com/Paper99/SRFBN_CVPR19) t create super-resolution covers and [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) to create slow motion latent space walk videos.
 
-### [StyleGAN](https://github.com/NVlabs/stylegan)
+### _[StyleGAN](https://github.com/NVlabs/stylegan)_
 StyleGAN is a generative model which is capable of generating [realistic images of people](https://www.thispersondoesnotexist.com/), [characters](https://towardsdatascience.com/creating-new-scripts-with-stylegan-c16473a50fd0), and [more](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900). More information can be found here: [1](https://towardsdatascience.com/explained-a-style-based-generator-architecture-for-gans-generating-and-tuning-realistic-6cb2be0f431)
 
-### VPRO Covers
-In this application, StyleGan was trained on a dataset of VPRO Covers, with an output size of 512x512. 
-
-[PyTorch](https://github.com/rosinality/style-based-gan-pytorch) implementation of StyleGAN.
++ In this application, StyleGan was trained on a dataset of historic VPRO Covers, with an output size of 512x512. Since there are hardly any constant features across covers except for the logo, we expected output that is artistic rather than realistic. Here is a [PyTorch](https://github.com/rosinality/style-based-gan-pytorch) implementation of StyleGAN you can use to train your own model. Create your own dataset and follow the instructions to preprocess your data and create a generative model. 
 
 ### [Feedback Network for Image Super-Resolution](https://github.com/Paper99/SRFBN_CVPR19)
-Feedback Network for Image Super-Resolution (SRFBN) and some post-processing was used to create super-resolution images of size 3366x3366 with 300dpi. SRFBN is an [image super-resolution](https://en.wikipedia.org/wiki/Super-resolution_imaging) feedback network (SRFBN) to refine low-level representations with high-level information. 
+Feedback Network for Image Super-Resolution (SRFBN) and some post-processing was used to create super-resolution images of the StyleGAN output. SRFBN is an [image super-resolution](https://en.wikipedia.org/wiki/Super-resolution_imaging) feedback network (SRFBN) to refine low-level representations with high-level information. 
+
++ We applied SRFBN with a magnification of x4, followed by a resizing and resampling of the output (using [ImageMagick](https://imagemagick.org/index.php)) to create images of size 3366x3366 with 300dpi.
 
 ### [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo)
-To create more detailed latent space walks of the StyleGAN output, we used [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo). Specifically, we used a PyTorch implementation of "Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation" by Jiang H., Sun D., Jampani V., Yang M., Learned-Miller E. and Kautz J. [[Project]](https://people.cs.umass.edu/~hzjiang/projects/superslomo/) [[Paper]](https://arxiv.org/abs/1712.00080)
+To better visualize the generative capabilities of the StyleGAN model, we performed a latent space walk to create videos that show generated covers morphing into each other. To create more detailed latent space walks of the StyleGAN output, we used [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo). Specifically, we used a [PyTorch](https://people.cs.umass.edu/~hzjiang/projects/superslomo/) implementation.
 
 ## Example of latent space walk:
 ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_4000_crop_10.gif) ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/VPRO_Gids_Covers_slow_8000_crop_10.gif)
 
 # Docker
-Coming soon.
+TODO
 
 # Resources
 Related material is available via the following links:
 
-+ StyleGAN : https://github.com/NVlabs/stylegan (See also https://arxiv.org/abs/1812.04948)
-+ Video: [TODO]
-+ Code: https://github.com/hvkoops/VPRO-GAN-covers/src
+## StyleGAN:
++ [StyleGAN](https://github.com/NVlabs/stylegan)
++ Karras, Tero, Samuli Laine, and Timo Aila. ["A Style-Based Generator Architecture for Generative Adversarial Networks"](https://arxiv.org/abs/1812.04948) In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 4401-4410. 2019.
 
+## Feedback Network for Image Super-Resolution
++ Code: [Feedback Network for Image Super-Resolution](https://github.com/Paper99/SRFBN_CVPR19)
++ Paper: Li, Zhen, Jinglei Yang, Zheng Liu, Xiaomin Yang, Gwanggil Jeon, and Wei Wu. ["Feedback network for image super-resolution."](https://arxiv.org/abs/1903.09814)  In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 3867-3876. 2019.
+
+## Super-SloMo
++ Code: https://github.com/avinashpaliwal/Super-SloMo
++ Paper: Jiang, Huaizu, Deqing Sun, Varun Jampani, Ming-Hsuan Yang, Erik Learned-Miller, and Jan Kautz. ["Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation"](https://arxiv.org/abs/1712.00080) In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 9000-9008. 2018.
