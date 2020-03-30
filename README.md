@@ -1,7 +1,7 @@
 # VPRO Gids GAN Covers
 > Generating VPRO Gids covers using [Generative Adversarial Networks](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
 
-For inquiries, contact me on [LinkedIn](https://www.linkedin.com/in/hendrik-vincent-koops-30927a93/) or shoot me an [email](hvkoops@gmail.com).
+For inquiries, shoot me an [email](hvkoops@gmail.com) or contact me on [LinkedIn](https://www.linkedin.com/in/hendrik-vincent-koops-30927a93/).
 
 ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/stitch_mx.png)
 **Picture**: A selection of generated VPRO Gids covers.
@@ -16,7 +16,7 @@ application to VPRO Gids covers. I used [StyleGAN](https://github.com/NVlabs/sty
 [VPRO Gids](https://www.vprogids.nl/) is the weekly television guide of Dutch
 broadcast station [VPRO](https://www.vpro.nl/). [VPRO](https://en.wikipedia.org/wiki/VPRO) has played a crucial part in Dutch design history with the guide being a focal point. I was asked to create an AI generated cover for the guide. This repository details the techniques I used to generate high-resolution VPRO Gids covers and latent space visualization videos.
 
-## Techniques used:
+## Method
 [StyleGAN](https://github.com/NVlabs/stylegan) was used for image genration, [SRFBN](https://github.com/Paper99/SRFBN_CVPR19) to create super-resolution images from the StyleGAN output and [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) to create slow motion versions of latent space walk videos.
 
 ### 1. _[StyleGAN](https://github.com/NVlabs/stylegan)_ 
