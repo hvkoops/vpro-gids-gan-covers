@@ -36,12 +36,6 @@ This [PyTorch](https://github.com/avinashpaliwal/Super-SloMo) implementation is 
 
 **Pictures**: Animated GIF examples of latent space visualization of the StyleGAN model using SRFBN and Super-SloMo. Note: these are reduced in resolution and frames per second.
 
-#### High resolution video examples of latent space walk:
-TODO
-
-# Docker
-TODO
-
 # Resources
 Related material is available via the following links:
 
