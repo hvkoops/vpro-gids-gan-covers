@@ -7,7 +7,7 @@ For inquiries, shoot me an [email](hvkoops@gmail.com) or contact me on [LinkedIn
 **Picture**: A selection of generated VPRO Gids covers.
 
 This repository contains information about my [StyleGAN](https://github.com/NVlabs/stylegan)
-application to VPRO Gids covers. I used [StyleGAN](https://github.com/NVlabs/stylegan), [SRFBN](https://github.com/Paper99/SRFBN_CVPR19) and [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) to generate (moving) cover art for the [13th VPRO Gids edition of 2020](https://www.vprogids.nl/2020/14/editie.html).
+application to VPRO Gids covers. I used [StyleGAN](https://github.com/NVlabs/stylegan), [SRFBN](https://github.com/Paper99/SRFBN_CVPR19) and [Super-SloMo](https://github.com/avinashpaliwal/Super-SloMo) to generate (moving) cover art for the [14th VPRO Gids edition of 2020](https://www.vprogids.nl/2020/14/editie.html).
 
 ## VPRO Gids
 ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/stitch.png)
