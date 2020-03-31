@@ -38,6 +38,7 @@ This [PyTorch](https://github.com/avinashpaliwal/Super-SloMo) implementation is 
 
 #### Video of latent space visalization:
 ![](https://i.vimeocdn.com/video/871282202_640.jpg)
+
 **Picture**: VPRO Gids Artificial Intelligence Cover on [Vimeo](https://vimeo.com/402250267)
 
 # Resources
