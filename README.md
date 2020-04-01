@@ -37,7 +37,7 @@ This [PyTorch](https://github.com/avinashpaliwal/Super-SloMo) implementation is 
 **Pictures**: Animated GIF examples of latent space visualization of the StyleGAN model using SRFBN and Super-SloMo. Note: these are reduced in resolution and frames per second.
 
 #### Video of latent space visalization:
-![](https://i.vimeocdn.com/video/871282202_640.jpg)
+![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/EUgPTx7WoAAZwRe.png)
 
 **Picture**: VPRO Gids Artificial Intelligence Cover Video on [Vimeo](https://vimeo.com/402250267)
 
