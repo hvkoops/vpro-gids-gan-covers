@@ -1,7 +1,7 @@
 # VPRO Gids GAN Covers
 > Generating VPRO Gids covers using [Generative Adversarial Networks](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
 
-For inquiries, shoot me an [email](hvkoops@gmail.com) or contact me on [LinkedIn](https://www.linkedin.com/in/hendrik-vincent-koops-30927a93/). Also check out [this page](https://www.vprogids.nl/extra/cover-algoritme.html) on the VPRO Gids website with additional information.
+For inquiries, shoot me an [email](hvkoops@gmail.com) or contact me on [LinkedIn](https://www.linkedin.com/in/hendrik-vincent-koops-30927a93/). Also check out [this page](https://www.vprogids.nl/extra/artikelen/cover-algoritme.html) on the VPRO Gids website with additional information.
 
 ![](https://github.com/hvkoops/VPRO-GAN-covers/blob/master/img/stitch_mx.png)
 **Picture**: A selection of generated VPRO Gids covers.
